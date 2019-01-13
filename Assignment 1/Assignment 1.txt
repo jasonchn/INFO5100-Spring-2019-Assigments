@@ -1,0 +1,29 @@
+Withdraw Money From ATM
+
+Objects & Behaviors:
+
+Debit Card
+
+Data: Issuer, NameOfHolder, CardNumber, ExpirationDate
+
+Behaviors: 
+
+Card Holder
+
+Data: Name, ID, PIN
+
+Behaviors: InsertCard, InputDigits, MakeSelection, TakeMoney
+
+ATM
+
+Data: IDOfATM, TypeOfAcceptedCard, AvaliableServices, AvailableMoney
+
+Behaviors: VerifyCard, AskForPIN, ReturnCard, AskForService, ShowMaxWithdraw, AskForWithdrawAmount, WithDrawMoney, PrintReceipt
+
+Bank
+
+Data: AccountBalanceOfHolder, PINofCard, ProfileOfCardHolder
+
+Behaviors: VerifyPIN, VerifyBalance, DeductBalance
+
+
