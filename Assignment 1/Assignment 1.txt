@@ -18,7 +18,7 @@ ATM
 
 Data: IDOfATM, TypeOfAcceptedCard, AvaliableServices, AvailableMoney
 
-Behaviors: VerifyCard, AskForPIN, ReturnCard, AskForService, ShowMaxWithdraw, AskForWithdrawAmount, WithDrawMoney, PrintReceipt
+Behaviors: VerifyCard, AskForPIN, ReturnCard, AskForService, ShowMaxWithdraw, AskForWithdrawAmount, WithdrawMoney, PrintReceipt
 
 Bank
 
