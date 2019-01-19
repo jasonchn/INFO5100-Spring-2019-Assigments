@@ -1,29 +1,99 @@
-Withdraw Money From ATM
+Problem 1: Design a course registration platform
 
 Objects & Behaviors:
 
-Debit Card
+Student
+Data: name, ID, major, email, passWord
+Behaviors: inputCredentials, clickButton
 
-Data: Issuer, NameOfHolder, CardNumber, ExpirationDate
+Website:
+Data: URL, courses, seatsAvailable
+Behaviors: submitInputs, checkInputs
 
-Behaviors: 
+Database:
+Data: studentsInformation, studentsLogin, coursesInformation, coursesSeats
+Behaviors: checkData, createData
 
-Card Holder
+Browser
+Data: cookies
+Behaviors: browse, display
 
-Data: Name, ID, PIN
 
-Behaviors: InsertCard, InputDigits, MakeSelection, TakeMoney
 
-ATM
 
-Data: IDOfATM, TypeOfAcceptedCard, AvaliableServices, AvailableMoney
 
-Behaviors: VerifyCard, AskForPIN, ReturnCard, AskForService, ShowMaxWithdraw, AskForWithdrawAmount, WithdrawMoney, PrintReceipt
+Problem 2: Order foods in a food delivery app
+
+Objects & Behaviors:
+
+User
+Data: userName, passWord, address, paymentInformation
+Behaviors: inputCredentials, clickButton
+
+Phone
+Data: apps, time, date
+Behaviors: display, locate
+
+App
+Data: userLogins, merchantsInformation, menu
+Behaviors: check, order, redirect
 
 Bank
-
 Data: AccountBalanceOfHolder, PINofCard, ProfileOfCardHolder
-
 Behaviors: VerifyPIN, VerifyBalance, DeductBalance
+
+Merchants
+Data: foodInformation, price, deliveryAvalibility
+Behaviors: receiveOrder, placeOrder, cancelOrder
+
+
+
+
+Problem 3: Design a platform for buying tickets of local events
+
+Objects & Behaviors:
+
+User
+Data: userName, passWord, address, paymentInformation
+Behaviors: Input, Click
+
+Website:
+Data: URL, events
+Behaviors: submitInputs, checkInputs
+
+Database:
+Data: userInformation, userLogin, eventInformation, ticketsAvailbility, orders
+Behaviors: check, create
+
+Bank
+Data: AccountBalanceOfHolder, PINofCard, ProfileOfCardHolder
+Behaviors: verifyPIN, verifyBalance, deductBalance
+
+Merchants
+Data: eventInformation, price, ticketAvailbility
+Behaviors: receiveOrder, placeOrder, cancelOrder
+
+Problem 4: Buying computer from Amazon
+
+Objects & Behaviors:
+
+User
+Data: userName, passWord, address, paymentInformation
+Behaviors: Input, Click
+
+Amazon:
+Data: URL, products, userInformation, userLogin, producttInformation, productAvailbility, orders, shipmentOption
+Behaviors: submitInputs, checkInputs, checkAddress, checkPayment, verifyUser
+
+
+Bank
+Data: AccountBalanceOfHolder, PINofCard, ProfileOfCardHolder
+Behaviors: verifyPIN, verifyBalance, deductBalance
+
+ComputerMerchants
+Data: computertInformation, price, stockAvailbility
+Behaviors: receiveOrder, placeOrder, cancelOrder, shipOrder
+
+
 
 
