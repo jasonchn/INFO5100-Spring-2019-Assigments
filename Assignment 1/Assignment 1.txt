@@ -95,5 +95,19 @@ Data: computertInformation, price, stockAvailbility
 Behaviors: receiveOrder, placeOrder, cancelOrder, shipOrder
 
 
+Problem 5: Design an app for booking hotel
 
+Objects & Behaviors:
 
+App
+Data: userInformation, hotelInformtion, orders
+Behaviors: submitInputs, checkInputs, checkAddress, checkPayment, createUserProfile, verifyUser, pullDataFromMerchant, createOrder,
+modifyOrder, cancelOrder
+
+Hotel
+Data: hotelInformtion, roomInformation, price, roomAvailbility
+Behaviors: receiveOrder, placeOrder, cancelOrder 
+
+Bank
+Data: AccountBalanceOfHolder, PINofCard, ProfileOfCardHolder
+Behaviors: verifyPIN, verifyBalance, deductBalance
