@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b455a6cb-cdf9-4182-aec0-182bb27da419" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Assignment_3_CourseRegistration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3_CourseRegistration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestCheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCheckOut.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestCheckOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="255">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CheckOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="76">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -97,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/iceCream.java" />
         <option value="$PROJECT_DIR$/src/Sundae.java" />
         <option value="$PROJECT_DIR$/src/DessertShoppe.java" />
-        <option value="$PROJECT_DIR$/src/CheckOut.java" />
         <option value="$PROJECT_DIR$/src/TestCheckOut.java" />
+        <option value="$PROJECT_DIR$/src/CheckOut.java" />
       </list>
     </option>
   </component>
@@ -185,7 +185,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8754000" />
+    <option name="totallyTimeSpent" value="10172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -268,17 +268,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCheckOut.java">
+    <entry file="file://$PROJECT_DIR$/src/CheckOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="76">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheckOut.java">
+    <entry file="file://$PROJECT_DIR$/src/TestCheckOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
