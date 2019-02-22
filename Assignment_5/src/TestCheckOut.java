@@ -13,6 +13,7 @@ public class TestCheckOut {
         System.out.println("\nTotal Tax" + "    "  + checkout.totalTax() + "\n");
         System.out.println(checkout);
         checkout.clear();
+        System.out.println(checkout);
 
     }
 }
