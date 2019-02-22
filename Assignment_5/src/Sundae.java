@@ -2,7 +2,7 @@ public class Sundae extends iceCream {
 
 
     int ToppingPrice = 1;
-    Sundae(String iceCreamName, int iceCreamPrice, String ToppingName){
+    Sundae(String iceCreamName, double iceCreamPrice, String ToppingName){
 
         this.name = ToppingName + "\n" + iceCreamName;
         this.iceCreamPrice = iceCreamPrice;

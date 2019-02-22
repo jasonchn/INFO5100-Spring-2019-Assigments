@@ -33,15 +33,17 @@ public class CheckOut {
         return currentCost;
     }
 
-    public double totalTax(){return currentTax;}
+    public double totalTax(){return (int)Math.round(currentTax);}
 
     public String toString(){
+        System.out.println("\n" + "         "+ store.storeName);
+        System.out.println("\n" + "       "+"-------------"+"\n");
 
         for (int i = 0; i < list.size(); i++){
             if (list.get(i) instanceof Candy){
-                receipt=  list.get(i).name + "           " + list.get(i).getCost()+ "\n" + ((Candy) list.get(i)).weight + "@" + ((Candy) list.get(i)).unitprice + "/lb.";
+                receipt=  list.get(i).name + "           " + list.get(i).getCost()+ "\n" + ((Candy) list.get(i)).weight + "@" + ((Candy) list.get(i)).unitprice + "/lb." + "\n";
             }else if (list.get(i) instanceof Cookies){
-                receipt +=  list.get(i).name + "           " + list.get(i).getCost() + "\n" + ((Cookies) list.get(i)).dozen + "@"+ ((Cookies) list.get(i)).unitprice + "/dz.";
+                receipt +=  list.get(i).name + "           " + list.get(i).getCost() + "\n" + ((Cookies) list.get(i)).dozen + "@"+ ((Cookies) list.get(i)).unitprice + "/dz." + "\n";
             }else if (list.get(i) instanceof Sundae){
                 receipt += list.get(i).name + "           " + list.get(i).getCost() + "\n";
             }else if (list.get(i) instanceof  iceCream){
