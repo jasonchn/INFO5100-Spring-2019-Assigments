@@ -4,8 +4,9 @@ public class Candy extends DessertItem{
     double weight;
     double unitprice;
 
-    Candy(double weight, double unitprice){
+    Candy(String candyName, double weight, double unitprice){
 
+        this.name = candyName;
         this.weight = weight;
         this.unitprice = unitprice;
     }
