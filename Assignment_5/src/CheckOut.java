@@ -29,7 +29,10 @@ public class CheckOut {
 
         list.removeAll(list);
 
+
     }
+
+
 
     public int totalCost(){
         return currentCost;
@@ -41,19 +44,20 @@ public class CheckOut {
         System.out.println("\n" + "         "+ store.storeName);
         System.out.println("\n" + "       "+"-------------"+"\n");
 
+
         if (list == null){
             System.out.println();
         }
 
         for (int i = 0; i < list.size(); i++){
             if (list.get(i) instanceof Candy){
-                receipt=  list.get(i).name + "           " + list.get(i).getCost()+ "\n" + ((Candy) list.get(i)).weight + " "+ "@" + " "+ ((Candy) list.get(i)).unitprice + "/lb." + "\n";
+                receipt=  list.get(i).name + "           " + store.cent2DollarsAndCents(list.get(i).getCost())+ "\n" + ((Candy) list.get(i)).weight + " "+ "@" + " "+ ((Candy) list.get(i)).unitprice + "/lb." + "\n";
             }else if (list.get(i) instanceof Cookies){
-                receipt +=  list.get(i).name + "           " + list.get(i).getCost() + "\n" + ((Cookies) list.get(i)).dozen + " "+ "@"+" "+ ((Cookies) list.get(i)).unitprice + "/dz." + "\n";
+                receipt +=  list.get(i).name + "           " + store.cent2DollarsAndCents(list.get(i).getCost()) + "\n" + ((Cookies) list.get(i)).dozen + " "+ "@"+" "+ ((Cookies) list.get(i)).unitprice + "/dz." + "\n";
             }else if (list.get(i) instanceof Sundae){
-                receipt += list.get(i).name + "           " + list.get(i).getCost() + "\n";
+                receipt += list.get(i).name + "           " + store.cent2DollarsAndCents(list.get(i).getCost()) + "\n";
             }else if (list.get(i) instanceof  iceCream){
-                receipt += list.get(i).name + "           " + list.get(i).getCost() + "\n";
+                receipt += list.get(i).name + "           " + store.cent2DollarsAndCents(list.get(i).getCost()) + "\n";
             }
         }
 
