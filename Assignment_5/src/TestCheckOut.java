@@ -11,8 +11,11 @@ public class TestCheckOut {
         System.out.println("\nNumber of items" + "    "+ checkout.numberOfItems() + "\n");
         System.out.println("\nTotal Cost" + "    " + checkout.totalCost() + "\n");
         System.out.println("\nTotal Tax" + "    "  + checkout.totalTax() + "\n");
+        System.out.print("\nCost + Tax" + "    " + checkout.totalCost()+checkout.totalTax()+ "\n");
         System.out.println(checkout);
         checkout.clear();
+
+
 
     }
 }
